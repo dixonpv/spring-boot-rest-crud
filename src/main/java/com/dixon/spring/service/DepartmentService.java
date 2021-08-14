@@ -3,12 +3,14 @@ package com.dixon.spring.service;
 
 import com.dixon.spring.entity.Department;
 import com.dixon.spring.error.DepartmentNotFoundException;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * @author dixon
  */
+
 
 public interface DepartmentService {
 
